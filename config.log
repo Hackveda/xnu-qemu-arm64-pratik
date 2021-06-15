@@ -1,0 +1,1157 @@
+# QEMU configure log Wed Feb 12 20:49:06 IST 2020
+# Configured with: './configure' '--target-list=aarch64-softmmu' '--disable-capstone'
+#
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 92 119 606 623 0
+cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __linux__ not defined
+#error __linux__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 92 119 606 625 0
+cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: _WIN32 not defined
+#error _WIN32 not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 92 119 606 627 0
+cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __OpenBSD__ not defined
+#error __OpenBSD__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 92 119 606 629 0
+cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __sun__ not defined
+#error __sun__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 92 119 606 631 0
+cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __HAIKU__ not defined
+#error __HAIKU__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 92 119 606 633 0
+cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __FreeBSD__ not defined
+#error __FreeBSD__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 92 119 606 635 0
+cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __FreeBSD_kernel__ not defined
+#error __FreeBSD_kernel__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 92 119 606 637 0
+cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __DragonFly__ not defined
+#error __DragonFly__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 92 119 606 639 0
+cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __NetBSD__ not defined
+#error __NetBSD__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 92 119 606 641 0
+cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_object main
+lines: 92 119 1738 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 1743 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Werror -Werror=address-of-packed-member -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Werror -Wstring-plus-int -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Werror -Winitializer-overrides -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Werror -Wexpansion-to-defined -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Werror -Wendif-labels -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Werror -Wshift-negative-value -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Werror -Wmissing-include-dirs -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Werror -Wempty-body -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Werror -Wnested-externs -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Werror -Wformat-security -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Werror -Wformat-y2k -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Werror -Winit-self -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Werror -Wignored-qualifiers -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Werror -Wold-style-declaration -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+error: unknown warning option '-Wold-style-declaration'; did you mean '-Wout-of-line-declaration'? [-Werror,-Wunknown-warning-option]
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Werror -Wold-style-definition -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 92 125 1795 1799 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Werror -Wtype-limits -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc main
+lines: 92 1820 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -Werror -fstack-protector-strong -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 1821 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -Werror -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_object main
+lines: 92 119 1841 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -Werror -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 1858 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -Werror -fno-gcse -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+clang: error: optimization flag '-fno-gcse' is not supported [-Werror,-Wignored-optimization-argument]
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 1879 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -Werror -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_object main
+lines: 92 119 2032 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_object main
+lines: 92 119 2068 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -Werror -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 2080 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:2:10: fatal error: 'linux/ip.h' file not found
+#include <linux/ip.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 2151 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lz
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 2168 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -llzo2
+config-temp/qemu-conf.c:1:10: fatal error: 'lzo/lzo1x.h' file not found
+#include <lzo/lzo1x.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 2187 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lsnappy
+config-temp/qemu-conf.c:1:10: fatal error: 'snappy-c.h' file not found
+#include <snappy-c.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 2206 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lbz2
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 2293 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lxenstore -lxenctrl -lxenguest
+config-temp/qemu-conf.c:1:10: fatal error: 'xenctrl.h' file not found
+#include <xenctrl.h>
+         ^~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_include main
+lines: 92 119 614 2892 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3051 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lrdmacm -libverbs -libumad
+config-temp/qemu-conf.c:1:10: fatal error: 'rdma/rdma_cma.h' file not found
+#include <rdma/rdma_cma.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3079 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lsasl2
+config-temp/qemu-conf.c:3:18: warning: 'sasl_server_init' is deprecated: first deprecated in macOS 10.11 [-Wdeprecated-declarations]
+int main(void) { sasl_server_init(NULL, "qemu"); return 0; }
+                 ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sasl/sasl.h:1016:17: note: 'sasl_server_init' has been explicitly marked deprecated here
+LIBSASL_API int sasl_server_init(const sasl_callback_t *callbacks,
+                ^
+1 warning generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3101 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -ljpeg
+config-temp/qemu-conf.c:2:10: fatal error: 'jpeglib.h' file not found
+#include <jpeglib.h>
+         ^~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3133 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lpng
+config-temp/qemu-conf.c:2:10: fatal error: 'png.h' file not found
+#include <png.h>
+         ^~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3171 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3187 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:2:10: fatal error: 'xfs/xfs.h' file not found
+#include <xfs/xfs.h>
+         ^~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3211 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lvdeplug
+config-temp/qemu-conf.c:1:10: fatal error: 'libvdeplug.h' file not found
+#include <libvdeplug.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3261 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lcap-ng
+config-temp/qemu-conf.c:1:10: fatal error: 'cap-ng.h' file not found
+#include <cap-ng.h>
+         ^~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3352 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lbrlapi
+config-temp/qemu-conf.c:1:10: fatal error: 'brlapi.h' file not found
+#include <brlapi.h>
+         ^~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3394 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -DNCURSES_WIDECHAR -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:8:3: warning: implicit declaration of function 'addwstr' is invalid in C99 [-Wimplicit-function-declaration]
+  addwstr(L"wide chars\n");
+  ^
+config-temp/qemu-conf.c:8:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:9:3: warning: implicit declaration of function 'addnwstr' is invalid in C99 [-Wimplicit-function-declaration]
+  addnwstr(&wch, 1);
+  ^
+config-temp/qemu-conf.c:9:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:3: warning: implicit declaration of function 'add_wch' is invalid in C99 [-Wimplicit-function-declaration]
+  add_wch(WACS_DEGREE);
+  ^
+config-temp/qemu-conf.c:10:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:11: error: use of undeclared identifier 'WACS_DEGREE'
+  add_wch(WACS_DEGREE);
+          ^
+6 warnings and 1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3394 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -DNCURSES_WIDECHAR -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lncursesw
+config-temp/qemu-conf.c:8:3: warning: implicit declaration of function 'addwstr' is invalid in C99 [-Wimplicit-function-declaration]
+  addwstr(L"wide chars\n");
+  ^
+config-temp/qemu-conf.c:8:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:9:3: warning: implicit declaration of function 'addnwstr' is invalid in C99 [-Wimplicit-function-declaration]
+  addnwstr(&wch, 1);
+  ^
+config-temp/qemu-conf.c:9:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:3: warning: implicit declaration of function 'add_wch' is invalid in C99 [-Wimplicit-function-declaration]
+  add_wch(WACS_DEGREE);
+  ^
+config-temp/qemu-conf.c:10:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:11: error: use of undeclared identifier 'WACS_DEGREE'
+  add_wch(WACS_DEGREE);
+          ^
+6 warnings and 1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3394 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -DNCURSES_WIDECHAR -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lcursesw
+config-temp/qemu-conf.c:8:3: warning: implicit declaration of function 'addwstr' is invalid in C99 [-Wimplicit-function-declaration]
+  addwstr(L"wide chars\n");
+  ^
+config-temp/qemu-conf.c:8:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:9:3: warning: implicit declaration of function 'addnwstr' is invalid in C99 [-Wimplicit-function-declaration]
+  addnwstr(&wch, 1);
+  ^
+config-temp/qemu-conf.c:9:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:3: warning: implicit declaration of function 'add_wch' is invalid in C99 [-Wimplicit-function-declaration]
+  add_wch(WACS_DEGREE);
+  ^
+config-temp/qemu-conf.c:10:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:11: error: use of undeclared identifier 'WACS_DEGREE'
+  add_wch(WACS_DEGREE);
+          ^
+6 warnings and 1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3394 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -DNCURSES_WIDECHAR -I/usr/include/ncursesw -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:8:3: warning: implicit declaration of function 'addwstr' is invalid in C99 [-Wimplicit-function-declaration]
+  addwstr(L"wide chars\n");
+  ^
+config-temp/qemu-conf.c:8:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:9:3: warning: implicit declaration of function 'addnwstr' is invalid in C99 [-Wimplicit-function-declaration]
+  addnwstr(&wch, 1);
+  ^
+config-temp/qemu-conf.c:9:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:3: warning: implicit declaration of function 'add_wch' is invalid in C99 [-Wimplicit-function-declaration]
+  add_wch(WACS_DEGREE);
+  ^
+config-temp/qemu-conf.c:10:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:11: error: use of undeclared identifier 'WACS_DEGREE'
+  add_wch(WACS_DEGREE);
+          ^
+6 warnings and 1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3394 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -DNCURSES_WIDECHAR -I/usr/include/ncursesw -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lncursesw
+config-temp/qemu-conf.c:8:3: warning: implicit declaration of function 'addwstr' is invalid in C99 [-Wimplicit-function-declaration]
+  addwstr(L"wide chars\n");
+  ^
+config-temp/qemu-conf.c:8:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:9:3: warning: implicit declaration of function 'addnwstr' is invalid in C99 [-Wimplicit-function-declaration]
+  addnwstr(&wch, 1);
+  ^
+config-temp/qemu-conf.c:9:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:3: warning: implicit declaration of function 'add_wch' is invalid in C99 [-Wimplicit-function-declaration]
+  add_wch(WACS_DEGREE);
+  ^
+config-temp/qemu-conf.c:10:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:11: error: use of undeclared identifier 'WACS_DEGREE'
+  add_wch(WACS_DEGREE);
+          ^
+6 warnings and 1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3394 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -DNCURSES_WIDECHAR -I/usr/include/ncursesw -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lcursesw
+config-temp/qemu-conf.c:8:3: warning: implicit declaration of function 'addwstr' is invalid in C99 [-Wimplicit-function-declaration]
+  addwstr(L"wide chars\n");
+  ^
+config-temp/qemu-conf.c:8:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:9:3: warning: implicit declaration of function 'addnwstr' is invalid in C99 [-Wimplicit-function-declaration]
+  addnwstr(&wch, 1);
+  ^
+config-temp/qemu-conf.c:9:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:3: warning: implicit declaration of function 'add_wch' is invalid in C99 [-Wimplicit-function-declaration]
+  add_wch(WACS_DEGREE);
+  ^
+config-temp/qemu-conf.c:10:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:11: error: use of undeclared identifier 'WACS_DEGREE'
+  add_wch(WACS_DEGREE);
+          ^
+6 warnings and 1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3428 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lcurl
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3447 0
+cc -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'bluetooth/bluetooth.h' file not found
+#include <bluetooth/bluetooth.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3503 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -g -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -L/usr/local/Cellar/glib/2.62.4/lib -L/usr/local/opt/gettext/lib -lgthread-2.0 -lglib-2.0 -lintl -lz
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3521 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -Werror -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -L/usr/local/Cellar/glib/2.62.4/lib -L/usr/local/opt/gettext/lib -lgthread-2.0 -lglib-2.0 -lintl
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3580 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -ludev -lmultipath -lmpathpersist
+config-temp/qemu-conf.c:1:10: fatal error: 'libudev.h' file not found
+#include <libudev.h>
+         ^~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3598 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lcap
+config-temp/qemu-conf.c:2:10: fatal error: 'sys/capability.h' file not found
+#include <sys/capability.h>
+         ^~~~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3619 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3661 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:8:32: error: too many arguments to function call, expected 1, have 2
+    pthread_setname_np(thread, "QEMU");
+    ~~~~~~~~~~~~~~~~~~         ^~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h:512:1: note: 'pthread_setname_np' declared here
+__API_AVAILABLE(macos(10.6), ios(3.2))
+^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h:496:162: note: expanded from macro '__API_AVAILABLE'
+    #define __API_AVAILABLE(...) __API_AVAILABLE_GET_MACRO(__VA_ARGS__,__API_AVAILABLE7, __API_AVAILABLE6, __API_AVAILABLE5, __API_AVAILABLE4, __API_AVAILABLE3, __API_AVAILABLE2, __API_AVAILABLE1, 0)(__VA_ARGS__)
+                                                                                                                                                                 ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3678 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lrbd -lrados
+config-temp/qemu-conf.c:2:10: fatal error: 'rbd/librbd.h' file not found
+#include <rbd/librbd.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3739 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -laio
+config-temp/qemu-conf.c:1:10: fatal error: 'libaio.h' file not found
+#include <libaio.h>
+         ^~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3778 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:8:46: error: too few arguments to function call, expected 6, have 4
+int main(void) { getxattr(NULL, NULL, NULL, 0); setxattr(NULL, NULL, NULL, 0, 0); return 0; }
+                 ~~~~~~~~                    ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/xattr.h:61:1: note: 'getxattr' declared here
+ssize_t getxattr(const char *path, const char *name, void *value, size_t size, u_int32_t position, int options);
+^
+config-temp/qemu-conf.c:8:80: error: too few arguments to function call, expected 6, have 5
+int main(void) { getxattr(NULL, NULL, NULL, 0); setxattr(NULL, NULL, NULL, 0, 0); return 0; }
+                                                ~~~~~~~~                       ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/xattr.h:65:1: note: 'setxattr' declared here
+int setxattr(const char *path, const char *name, const void *value, size_t size, u_int32_t position, int options);
+^
+2 errors generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3781 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -DCONFIG_LIBATTR -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lattr
+config-temp/qemu-conf.c:4:10: fatal error: 'attr/xattr.h' file not found
+#include <attr/xattr.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3802 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3815 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:4:25: warning: implicit declaration of function 'preadv' is invalid in C99 [-Wimplicit-function-declaration]
+int main(void) { return preadv(0, 0, 0, 0); }
+                        ^
+config-temp/qemu-conf.c:4:25: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_preadv", referenced from:
+      _main in qemu-conf-f045fe.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3850 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lfdt
+config-temp/qemu-conf.c:1:10: fatal error: 'libfdt.h' file not found
+#include <libfdt.h>
+         ^~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3975 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/inotify.h' file not found
+#include <sys/inotify.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 3990 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/inotify.h' file not found
+#include <sys/inotify.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4006 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:7:12: warning: implicit declaration of function 'pipe2' is invalid in C99 [-Wimplicit-function-declaration]
+    return pipe2(pipefd, O_CLOEXEC);
+           ^
+config-temp/qemu-conf.c:7:12: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_pipe2", referenced from:
+      _main in qemu-conf-bc1969.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4022 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:6:5: warning: implicit declaration of function 'accept4' is invalid in C99 [-Wimplicit-function-declaration]
+    accept4(0, NULL, NULL, SOCK_CLOEXEC);
+    ^
+config-temp/qemu-conf.c:6:5: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:6:28: error: use of undeclared identifier 'SOCK_CLOEXEC'
+    accept4(0, NULL, NULL, SOCK_CLOEXEC);
+                           ^
+2 warnings and 1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4041 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:8:11: warning: implicit declaration of function 'tee' is invalid in C99 [-Wimplicit-function-declaration]
+    len = tee(STDIN_FILENO, STDOUT_FILENO, INT_MAX, SPLICE_F_NONBLOCK);
+          ^
+config-temp/qemu-conf.c:8:11: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:8:53: error: use of undeclared identifier 'SPLICE_F_NONBLOCK'
+    len = tee(STDIN_FILENO, STDOUT_FILENO, INT_MAX, SPLICE_F_NONBLOCK);
+                                                    ^
+config-temp/qemu-conf.c:9:5: warning: implicit declaration of function 'splice' is invalid in C99 [-Wimplicit-function-declaration]
+    splice(STDIN_FILENO, NULL, fd, NULL, len, SPLICE_F_MOVE);
+    ^
+config-temp/qemu-conf.c:9:5: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:9:47: error: use of undeclared identifier 'SPLICE_F_MOVE'
+    splice(STDIN_FILENO, NULL, fd, NULL, len, SPLICE_F_MOVE);
+                                              ^
+4 warnings and 2 errors generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4054 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lnuma
+config-temp/qemu-conf.c:1:10: fatal error: 'numa.h' file not found
+#include <numa.h>
+         ^~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4087 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4136 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:4:25: warning: 'syscall' is deprecated: first deprecated in macOS 10.12 - syscall(2) is unsupported; please switch to a supported interface. For SYS_kdebug_trace use kdebug_signpost(). [-Wdeprecated-declarations]
+int main(void) { return syscall(SYS_signalfd, -1, NULL, _NSIG / 8); }
+                        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h:742:6: note: 'syscall' has been explicitly marked deprecated here
+int      syscall(int, ...);
+         ^
+config-temp/qemu-conf.c:4:57: error: use of undeclared identifier '_NSIG'
+int main(void) { return syscall(SYS_signalfd, -1, NULL, _NSIG / 8); }
+                                                        ^
+config-temp/qemu-conf.c:4:33: error: use of undeclared identifier 'SYS_signalfd'
+int main(void) { return syscall(SYS_signalfd, -1, NULL, _NSIG / 8); }
+                                ^
+1 warning and 2 errors generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4150 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/eventfd.h' file not found
+#include <sys/eventfd.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4164 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:5:12: warning: implicit declaration of function 'memfd_create' is invalid in C99 [-Wimplicit-function-declaration]
+    return memfd_create("foo", MFD_ALLOW_SEALING);
+           ^
+config-temp/qemu-conf.c:5:12: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:5:32: error: use of undeclared identifier 'MFD_ALLOW_SEALING'
+    return memfd_create("foo", MFD_ALLOW_SEALING);
+                               ^
+2 warnings and 1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4181 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:5:5: warning: implicit declaration of function 'fallocate' is invalid in C99 [-Wimplicit-function-declaration]
+    fallocate(0, 0, 0, 0);
+    ^
+config-temp/qemu-conf.c:5:5: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_fallocate", referenced from:
+      _main in qemu-conf-26b6a2.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4197 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:2:10: fatal error: 'linux/falloc.h' file not found
+#include <linux/falloc.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4213 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:2:10: fatal error: 'linux/falloc.h' file not found
+#include <linux/falloc.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4228 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:5:5: warning: implicit declaration of function 'posix_fallocate' is invalid in C99 [-Wimplicit-function-declaration]
+    posix_fallocate(0, 0, 0);
+    ^
+config-temp/qemu-conf.c:5:5: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_posix_fallocate", referenced from:
+      _main in qemu-conf-67fc30.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4243 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:5:5: warning: implicit declaration of function 'sync_file_range' is invalid in C99 [-Wimplicit-function-declaration]
+    sync_file_range(0, 0, 0, 0);
+    ^
+config-temp/qemu-conf.c:5:5: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_sync_file_range", referenced from:
+      _main in qemu-conf-41a4d7.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4260 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:2:10: fatal error: 'linux/fs.h' file not found
+#include <linux/fs.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4275 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:5:5: warning: implicit declaration of function 'dup3' is invalid in C99 [-Wimplicit-function-declaration]
+    dup3(0, 0, 0);
+    ^
+config-temp/qemu-conf.c:5:5: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_dup3", referenced from:
+      _main in qemu-conf-3738ff.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4291 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:6:5: warning: implicit declaration of function 'ppoll' is invalid in C99 [-Wimplicit-function-declaration]
+    ppoll(&pfd, 1, 0, 0);
+    ^
+config-temp/qemu-conf.c:6:5: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_ppoll", referenced from:
+      _main in qemu-conf-ccde87.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4306 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/prctl.h' file not found
+#include <sys/prctl.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4321 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/epoll.h' file not found
+#include <sys/epoll.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4344 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/epoll.h' file not found
+#include <sys/epoll.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4358 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/sendfile.h' file not found
+#include <sys/sendfile.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4372 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/timerfd.h' file not found
+#include <sys/timerfd.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4389 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:6:11: warning: implicit declaration of function 'setns' is invalid in C99 [-Wimplicit-function-declaration]
+    ret = setns(0, 0);
+          ^
+config-temp/qemu-conf.c:6:11: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:7:11: warning: implicit declaration of function 'unshare' is invalid in C99 [-Wimplicit-function-declaration]
+    ret = unshare(0);
+          ^
+config-temp/qemu-conf.c:7:11: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+4 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_setns", referenced from:
+      _main in qemu-conf-2758c6.o
+  "_unshare", referenced from:
+      _main in qemu-conf-2758c6.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4404 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:5:12: warning: implicit declaration of function 'clock_adjtime' is invalid in C99 [-Wimplicit-function-declaration]
+    return clock_adjtime(0, 0);
+           ^
+config-temp/qemu-conf.c:5:12: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_clock_adjtime", referenced from:
+      _main in qemu-conf-a5bac7.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4419 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:5:12: warning: implicit declaration of function 'syncfs' is invalid in C99 [-Wimplicit-function-declaration]
+    return syncfs(0);
+           ^
+config-temp/qemu-conf.c:5:12: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_syncfs", referenced from:
+      _main in qemu-conf-b3643e.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4441 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'byteswap.h' file not found
+#include <byteswap.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4453 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/endian.h' file not found
+#include <sys/endian.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4478 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4502 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:4:3: warning: implicit declaration of function 'timer_create' is invalid in C99 [-Wimplicit-function-declaration]
+  timer_create(CLOCK_REALTIME, NULL, NULL);
+  ^
+config-temp/qemu-conf.c:4:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_timer_create", referenced from:
+      _main in qemu-conf-f1d4fb.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4505 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lrt
+config-temp/qemu-conf.c:4:3: warning: implicit declaration of function 'timer_create' is invalid in C99 [-Wimplicit-function-declaration]
+  timer_create(CLOCK_REALTIME, NULL, NULL);
+  ^
+config-temp/qemu-conf.c:4:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4747 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:6:2: error: Not supported
+#error Not supported
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4761 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4774 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4789 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4801 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4813 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:2:25: warning: implicit declaration of function 'sem_timedwait' is invalid in C99 [-Wimplicit-function-declaration]
+int main(void) { return sem_timedwait(0, 0); }
+                        ^
+config-temp/qemu-conf.c:2:25: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_sem_timedwait", referenced from:
+      _main in qemu-conf-57236f.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4828 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:5:25: warning: implicit declaration of function 'strchrnul' is invalid in C99 [-Wimplicit-function-declaration]
+int main(void) { return strchrnul(haystack, 'x') != &haystack[6]; }
+                        ^
+config-temp/qemu-conf.c:5:25: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:5:50: warning: comparison between pointer and integer ('int' and 'char *')
+int main(void) { return strchrnul(haystack, 'x') != &haystack[6]; }
+                        ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+3 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_strchrnul", referenced from:
+      _main in qemu-conf-de0122.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4958 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:3:3: error: missing definition
+# error missing definition
+  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4972 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'linux/magic.h' file not found
+#include <linux/magic.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 4995 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -Werror -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5011 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'valgrind/valgrind.h' file not found
+#include <valgrind/valgrind.h>
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5026 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:3:5: error: use of undeclared identifier 'environ'
+    environ = 0;
+    ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5050 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_object main
+lines: 92 119 5072 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:1:13: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma GCC push_options
+            ^
+config-temp/qemu-conf.c:2:13: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma GCC target("avx2")
+            ^
+config-temp/qemu-conf.c:7:12: error: always_inline function '_mm256_testz_si256' requires target feature 'avx', but would be inlined into function 'bar' that is compiled without support for 'avx'
+    return _mm256_testz_si256(x, x);
+           ^
+2 warnings and 1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5096 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5115 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:4:7: warning: implicit declaration of function '__atomic_load_16' is invalid in C99 [-Wimplicit-function-declaration]
+  y = __atomic_load_16(&x, 0);
+      ^
+config-temp/qemu-conf.c:4:7: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:5:3: warning: implicit declaration of function '__atomic_store_16' is invalid in C99 [-Wimplicit-function-declaration]
+  __atomic_store_16(&x, y, 0);
+  ^
+config-temp/qemu-conf.c:5:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:6:3: warning: implicit declaration of function '__atomic_compare_exchange_16' is invalid in C99 [-Wimplicit-function-declaration]
+  __atomic_compare_exchange_16(&x, &y, x, 0, 0, 0);
+  ^
+config-temp/qemu-conf.c:6:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+6 warnings generated.
+Undefined symbols for architecture x86_64:
+  "___atomic_compare_exchange_16", referenced from:
+      _main in qemu-conf-dd287d.o
+  "___atomic_load_16", referenced from:
+      _main in qemu-conf-dd287d.o
+  "___atomic_store_16", referenced from:
+      _main in qemu-conf-dd287d.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5145 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:6:7: warning: implicit declaration of function '__atomic_load_8' is invalid in C99 [-Wimplicit-function-declaration]
+  y = __atomic_load_8(&x, 0);
+      ^
+config-temp/qemu-conf.c:6:7: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:7:3: warning: implicit declaration of function '__atomic_store_8' is invalid in C99 [-Wimplicit-function-declaration]
+  __atomic_store_8(&x, y, 0);
+  ^
+config-temp/qemu-conf.c:7:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:8:3: warning: implicit declaration of function '__atomic_compare_exchange_8' is invalid in C99 [-Wimplicit-function-declaration]
+  __atomic_compare_exchange_8(&x, &y, x, 0, 0, 0);
+  ^
+config-temp/qemu-conf.c:8:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:9:3: warning: implicit declaration of function '__atomic_exchange_8' is invalid in C99 [-Wimplicit-function-declaration]
+  __atomic_exchange_8(&x, y, 0);
+  ^
+config-temp/qemu-conf.c:9:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+config-temp/qemu-conf.c:10:3: warning: implicit declaration of function '__atomic_fetch_add_8' is invalid in C99 [-Wimplicit-function-declaration]
+  __atomic_fetch_add_8(&x, y, 0);
+  ^
+config-temp/qemu-conf.c:10:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+10 warnings generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5197 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5211 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/auxv.h' file not found
+#include <sys/auxv.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_object main
+lines: 92 119 5239 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -Werror -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5267 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:3:3: warning: implicit declaration of function 'copy_file_range' is invalid in C99 [-Wimplicit-function-declaration]
+  copy_file_range(0, NULL, 0, NULL, 0, 0);
+  ^
+config-temp/qemu-conf.c:3:3: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_copy_file_range", referenced from:
+      _main in qemu-conf-2c4e18.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5282 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'linux/fs.h' file not found
+#include <linux/fs.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5326 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'linux/rtnetlink.h' file not found
+#include <linux/rtnetlink.h>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5353 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:5:3: error: missing AF_VSOCK flag
+# error missing AF_VSOCK flag
+  ^
+config-temp/qemu-conf.c:7:10: fatal error: 'linux/vm_sockets.h' file not found
+#include <linux/vm_sockets.h>
+         ^~~~~~~~~~~~~~~~~~~~
+2 errors generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5371 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:4:10: fatal error: 'linux/if_alg.h' file not found
+#include <linux/if_alg.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_object main
+lines: 92 119 5390 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_object main
+lines: 92 119 5410 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc main
+lines: 92 5414 0
+cc -nostdlib -Wl,-r -Wl,--no-relax -o config-temp/qemu-conf.mo config-temp/qemu-conf.o
+ld: unknown option: --no-relax
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc main
+lines: 92 5414 0
+cc -nostdlib -Wl,-r -o config-temp/qemu-conf.mo config-temp/qemu-conf.o
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5433 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -framework Hypervisor -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/sysmacros.h' file not found
+#include <sys/sysmacros.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5454 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -framework Hypervisor -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g -lvxhs -lssl
+config-temp/qemu-conf.c:2:10: fatal error: 'qnio/qnio_api.h' file not found
+#include <qnio/qnio_api.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5474 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -framework Hypervisor -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_prog main
+lines: 92 125 5489 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -framework Hypervisor -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
+
+funcs: do_compiler do_cc compile_object main
+lines: 92 119 5818 0
+cc -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-definition -Wtype-limits -fstack-protector-strong -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cxx main
+lines: 96 5829 0
+c++ -D__STDC_LIMIT_MACROS -I/usr/local/Cellar/glib/2.62.4/include -I/usr/local/Cellar/glib/2.62.4/include/glib-2.0 -I/usr/local/Cellar/glib/2.62.4/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.43/include -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wall -Wundef -Wwrite-strings -fno-strict-aliasing -fno-common -fwrapv -Wno-error=address-of-packed-member -Wno-string-plus-int -Wno-initializer-overrides -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wtype-limits -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.cxx config-temp/qemu-conf.o -framework Hypervisor -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -g
